@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Apply Now</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+<header class="header">
+  <h1>Application Form</h1>
+</header>
+
+<form action="https://formsubmit.co/johnpaulgroup@hotmail.com" method="POST" enctype="multipart/form-data" class="form glass">
+
+  <input type="hidden" name="_next" value="thank-you.html">
+
+  <input type="hidden" name="_autoresponse" value="Thank you for applying. We have received your application and will review it shortly. Please check your email for updates.">
+
+  <label>Full Name</label>
+  <input type="text" name="name" required>
+
+  <label>Email Address</label>
+  <input type="email" name="email" required>
+
+  <label>Phone Number</label>
+  <input type="text" name="phone" required>
+
+  <label>Location</label>
+  <input type="text" name="location" required>
+
+  <label>Attach a copy of your resume</label>
+  <input type="file" name="resume" required>
+
+  <label>Why should we hire you?</label>
+  <textarea name="message"></textarea>
+
+  <button type="submit">Submit Application</button>
+
+</form>
+</body>
+</html>
